@@ -1,0 +1,35 @@
+# Node modules and build
+node_modules/
+dist/
+out/
+build/
+.cache/
+.mwebpack/
+
+# Electron Forge output
+/.webpack/
+/make/
+/package/
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Runtime
+*.lock
+*.log
+
+# Config files
+forge.config.js
+webpack.*.js
+
+# VS Code settings (if any)
+.vscode/
+
+# OS-specific
+*.swp
